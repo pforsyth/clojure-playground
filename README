@@ -1,0 +1,19 @@
+
+Start REPL
+
+./bin/repl.sh
+
+(compile 'playground.factserver)
+
+Exit REPL (CNTL-C)
+
+Run: 
+
+java -cp .:lib/clojure.jar:lib/clojure-contrib.jar:classes playground.factserver
+
+Hit
+
+http://localhost:8080
+
+
+
